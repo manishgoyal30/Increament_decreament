@@ -39,11 +39,11 @@ h1{
   color: white;
   background: transparent;
   font-size: 50px;
-  background-color: #30336b;
+  text-shadow: 4px 4px 8px #000000 ;
   padding: 6px 0 2px 0;
   margin-bottom: 10px;
   width: 100%;
-  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+ 
 }
 
 
@@ -69,4 +69,10 @@ button:hover{
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.btn_green:hover{
+  color: #2ed573;
+}
+.btn_red:hover{
+  color: #ff4757;
 }
